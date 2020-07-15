@@ -208,7 +208,7 @@ criterion_hyp = nn.CrossEntropyLoss()
 momentum_hyp = 0.9
 batch_size_hyp = 8
 num_epochs_hyp = 1
-input_size_hyp = 299
+input_size_hyp = 224
 data_dir_hyp = "C:/Users/borti/Desktop/UniCa/Magistrale/1st Year/2nd Sem/Machine learning/Project/cropped/"
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
